@@ -1,0 +1,43 @@
+th {
+    background: #ffff9a;
+}
+
+td {
+    background: #ffffdf;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    margin-bottom: .5em;
+    table-layout: fixed;
+}
+
+td,
+th {
+    padding: .7em;
+    margin: 0;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+    background-color: #ffff9a;
+}
+
+label {
+    color: #555;
+    display: block;
+    margin-bottom: .2em;
+}
